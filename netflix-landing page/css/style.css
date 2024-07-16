@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    
+
+
+
+}
+
+
+
+.banner-wrap {
+    background-image:url(/assets/back_ground_image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    
+    
+    border-bottom: 8px solid rgb(35 35 35);
+    z-index: 1;
+
+
+
+}
+.overlay{
+    background: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 60%;
+    z-index: -1;
+
+
+}
+.banner-wrap img{
+
+    height: 32px;
+}
+
+nav {
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+    margin: 0 45px;
+    padding-top: 45px;
+}
+
+.logo img {
+    width: 150px;
+    height: 100%;
+
+
+
+}
+
+nav a{
+    padding: 8px 10px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(229, 9, 20);
+
+    
+    height: 32px;
+    border-radius: 4px;
+    
+    width: 77px;
+    margin: 150px;
+    text-align: center;
+    justify-content:center ;
+
+    
+
+
+
+
+
+}
+nav a:hover{
+    background-color:rgb(179, 6, 15) ;
+
+
+}
+.banner-container{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.heading-1{
+    font-size:40px;
+    font-weight: bolder;
+
+
+}
+.h1-paragraph{
+
+    font-size: 1.125rem;
+    font-weight: 400;
+}  
+
+
+.TV-title{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+   
+}
+
+
+
+
+form{
+
+    height: 70px;
+    display: flex;
+    flex-direction:column;
+    
+    justify-content:center ;
+    
+
+
+}
+:required{
+    color: white;
+    border-radius: 50px;
+
+
+}
+.form-heading{
+
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.get-started-btn{
+    font-size: 1.625rem;
+    
+    background-color:rgb(229, 9, 20);
+    color: white;
+    height:56px ;
+    width: 209px;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    padding: 0 26px ;
+    margin-left: 2px;
+
+  
+
+
+}
+.get-started-input{
+    width: 350px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    padding-left: 15px;
+   
+    margin: 0 5px;
+    
+
+
+}
+.sign-in-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+::placeholder{
+
+    color: silver;
+    border: none;
+}
+
+.info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background-color: black;
+    border-bottom: 8px solid rgb(35 35 35);
+    padding: 70px 45px;
+
+
+}
+
+.TV{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    
+   
+
+
+
+}
+.Tv-text{
+    margin-left: 50px;
+   
+
+
+}
+.TV img{
+    z-index: 1;
+
+
+}
+
+.TV video{
+    position: absolute;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: black;
+    
+
+
+
+}
+
+/* .footer-links{
+
+    
+    color: white;
+    
+} */
+.footer-links{
+    list-style: none;
+    columns: 4;
+    padding: none ;
+    
+}
+.footer-links li{
+
+    font-size: 13px;
+    line-height: 2;
+}
+.footer-items{
+    margin: 0 47px;
+    padding:70px 45px;
+
+
+
+
+}
+.footer ul li, .questions-title{
+    color:#757575;
+
+
+}
+.footer ul li:hover{
+    cursor: pointer;
+    text-decoration:underline ;
+}
+.questions-title:hover{
+    text-decoration: underline;
+}
+.footer-top{
+    margin-bottom: 30px;
+
+
+}
+
+.material-icons{
+    color: #757575;
+    
+
+
+}
+.language{
+    color:#757575;
+    height: 52px;
+    width: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 10px;
+    margin-top: 10px;
+    border: 1px solid #757575;
+    border-radius: 3px;
+    
+
+
+}
+.language select{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    appearance: none;
+    color: #999999;
+    background-color: black;
+   
+   
+   
+
+
+}
+.material-symbols-outlined{
+    cursor: pointer;
+    
+    
+
+
+}
+
+
+
+
+
